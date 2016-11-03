@@ -1,0 +1,7 @@
+SELECT		641
+
+LEFT		408
+RIGHT		  0
+
+UP		 99
+DOWN		255
