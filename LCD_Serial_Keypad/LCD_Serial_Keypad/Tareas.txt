@@ -1,4 +1,0 @@
-Arreglar segundos 59 - Salta de 00 a 58s
-Encendido con llave
-Modificar código leerCodigo (delay(delayCountDown/20);)
-Cableado cortar cables. Rojo,Verde,Azul,Amarillo,Naranja
