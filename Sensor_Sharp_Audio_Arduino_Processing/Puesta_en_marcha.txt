@@ -1,0 +1,12 @@
+1- Conectar Sensores Sharp en Arduino
+
+	1.1 Sensor 1 -> Analog 1
+	1.2 Sensor 2 -> Analog 2
+
+2- Cargar programa a Arduino
+
+3- Comprobar con Monitor Serial que esta mandando datos
+
+	3.1 115200 baudios
+
+4- Abrir processing y ejecutar el programa
