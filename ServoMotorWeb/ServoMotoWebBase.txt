@@ -8,7 +8,7 @@ byte ip[] = { 192, 168, 1, 200 }; // ip in lan
 byte gateway[] = { 192, 168, 1, 1 }; // internet access via router
 byte subnet[] = { 255, 255, 255, 0 }; //subnet mask
 Server server(80); //server port
-byte sampledata=90; //some sample data – outputs 2 (ascii = 50 DEC)
+byte sampledata=90; //some sample data â€“ outputs 2 (ascii = 50 DEC)
 int ledPin = 4; // LED pin
 String readString = String(30); //string for fetching data from address
 Servo myservo;  // create servo object to control a servo 
