@@ -1,0 +1,14 @@
+<VBBSolution name="ArduinoProject" perspective="VBB - Rapid Prototyping System">
+	<LAYOUT currentView="1" >
+	<VIEW id="1">
+	</VIEW>
+	<VIEW id="2">
+		<PANE>[ArduinoProject]Breadboard0.VBB</PANE>
+	</VIEW>
+	<VIEW id="3">
+	</VIEW>
+	</LAYOUT>
+<PROJECTS>
+<PROJECT>ArduinoProject.SIM</PROJECT>
+</PROJECTS>
+</VBBSolution>

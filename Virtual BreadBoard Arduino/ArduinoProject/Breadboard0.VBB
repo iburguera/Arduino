@@ -1,0 +1,166 @@
+<breadboard type="Breadboard">
+<GX>
+<XOFFSET>0</XOFFSET>
+<YOFFSET>0</YOFFSET>
+<ZOOM>1</ZOOM>
+</GX>
+	<properties>
+	</properties>
+
+	<projectproperties>
+		<webroot></webroot>
+		<startuppage></startuppage>
+		<launchujserver></launchujserver>
+	</projectproperties>
+	<components>
+		<component>
+			<X>238</X>
+			<Y>112</Y>
+			<rotation>0</rotation>
+			<locked>False</locked>
+			<class>com.virtualbreadboard.sim.components.uVM.containers.ArduinoStandard</class>
+				<properties>
+					<property>
+						<name>Application</name>
+						<value>Manual</value>
+						<description>Application to execute (App)</description>
+					</property>
+					<property>
+						<name>Configuration</name>
+						<value></value>
+						<description>Application Configuration (xml)</description>
+					</property>
+					<property>
+						<name>eeprom</name>
+						<value></value>
+						<description>implements the persistance of the eeprom between files(512)</description>
+					</property>
+					<property>
+						<name>left</name>
+						<value>238</value>
+						<description>(visible = false)</description>
+					</property>
+					<property>
+						<name>top</name>
+						<value>112</value>
+						<description>(visible = false)</description>
+					</property>
+					<property>
+						<name>orientation</name>
+						<value>0</value>
+						<description>(visible = false)</description>
+					</property>
+					<property>
+						<name>FabID</name>
+						<value></value>
+						<description></description>
+					</property>
+				</properties>
+
+		</component>
+		<component>
+			<X>434</X>
+			<Y>56</Y>
+			<rotation>0</rotation>
+			<locked>False</locked>
+			<class>com.virtualbreadboard.sim.components.userio.PushButton</class>
+				<properties>
+					<property>
+						<name>Contact Type</name>
+						<value>1. On=VDD, Off=GND</value>
+						<description>Identifies the circuit type</description>
+					</property>
+					<property>
+						<name>Button</name>
+						<value>1. circle</value>
+						<description>The shape of the button</description>
+					</property>
+					<property>
+						<name>ColorON</name>
+						<value>blue</value>
+						<description>A named SVG color to be used as the color of the button when pressed</description>
+					</property>
+					<property>
+						<name>ColorOFF</name>
+						<value>black</value>
+						<description>A named SVG color to be used as the color of the button when not pressed</description>
+					</property>
+					<property>
+						<name>left</name>
+						<value>434</value>
+						<description>(visible = false)</description>
+					</property>
+					<property>
+						<name>top</name>
+						<value>56</value>
+						<description>(visible = false)</description>
+					</property>
+					<property>
+						<name>orientation</name>
+						<value>0</value>
+						<description>(visible = false)</description>
+					</property>
+					<property>
+						<name>FabID</name>
+						<value></value>
+						<description></description>
+					</property>
+				</properties>
+
+		</component>
+		<component>
+			<X>490</X>
+			<Y>112</Y>
+			<rotation>0</rotation>
+			<locked>False</locked>
+			<class>com.virtualbreadboard.sim.components.userio.Led4</class>
+				<properties>
+					<property>
+						<name>Color</name>
+						<value>red</value>
+						<description>The color of the LED</description>
+					</property>
+					<property>
+						<name>Cathode</name>
+						<value>Ground</value>
+						<description></description>
+					</property>
+					<property>
+						<name>left</name>
+						<value>490</value>
+						<description>(visible = false)</description>
+					</property>
+					<property>
+						<name>top</name>
+						<value>112</value>
+						<description>(visible = false)</description>
+					</property>
+					<property>
+						<name>orientation</name>
+						<value>0</value>
+						<description>(visible = false)</description>
+					</property>
+					<property>
+						<name>FabID</name>
+						<value></value>
+						<description></description>
+					</property>
+				</properties>
+
+		</component>
+	</components>
+	<links>
+			<g id="NETLIST_REPRESENTATION" stroke="blue" stroke-width="1">
+			<g stroke="blue" stroke-width="1">
+				<line x1="448" y1="126" x2="448" y2="84" width="1" layer="" />
+				<line x1="448" y1="84" x2="448" y2="84" width="1" layer="" />
+				<line x1="448" y1="84" x2="448" y2="84" width="1" layer="" />
+			</g>
+		</g>
+		<g id="NETLABELS" stroke="" font-family="courier new" font-size="8" text-anchor="middle">
+		</g>
+		<g id="JUNCTIONS" stroke="black" fill="black">
+		</g>
+
+	</links>
+</breadboard>
