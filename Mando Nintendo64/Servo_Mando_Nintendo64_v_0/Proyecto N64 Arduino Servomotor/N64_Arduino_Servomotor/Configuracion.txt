@@ -1,0 +1,5 @@
+115200 bauds
+
+Ground -> Ground
+Signal -> Arduino pin 2
+Power  -> 3.3v

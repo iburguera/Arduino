@@ -1,0 +1,14 @@
+1- Cargar Fichero Arduino a la placa
+2- Conectar los cables de la siguiente manera
+
+	Ground       -> Ground
+	N64 Signal   -> Arduino pin 2
+	Power        -> 3.3v
+  
+        Servo Signal -> Arduino pin 9
+      
+        
+
+3- configurar el Baud Rate a 	115200 bauds
+
+4- Utilizar el programa de Processing para testear que esta todo correcto
